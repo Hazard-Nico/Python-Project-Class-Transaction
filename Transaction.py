@@ -25,6 +25,7 @@ class Transaction:
     """
     ### End of add function
     """
+    ### End of add_item()
 
 
 
@@ -66,6 +67,7 @@ class Transaction:
     """
     ### End of all update function
     """
+    ### End of all update function
 
 
 
@@ -84,6 +86,7 @@ class Transaction:
         for item in self.items:
             if item[0] == nama_item:
                 self.items.remove(item)
+    ### End of delete_item()
 
 
 
@@ -96,9 +99,7 @@ class Transaction:
     """
     def reset_transaction(self):
         self.items.clear()
-    """
-    End of all delete function
-    """
+    ### End of reset_transaction()
 
     """
     ### Check Order untuk menampilkan item yang sudah masuk ke keranjang
@@ -110,6 +111,7 @@ class Transaction:
         print(tabulate(self.items, headers=head, tablefmt="grid"))
 
     def total_price(self):
+        # List kosong untuk mengumpulkan seluruh jumlah harga per item
         total_bayar = []
         for item in self.items:
             jumlah_harga_per_item = item[1] * item[2]
