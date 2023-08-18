@@ -68,3 +68,37 @@ Disini ada beberapa langkah yang akan dimasukkan menjadi Function di dalam Class
 ##### Cara Import Tabulate
 
 - from tabulate import tabulate
+
+---
+
+# Results
+
+Memakai Test Case menggunakan cashier.py, atau buka berupa file.ipynb di dalam notebook-version
+Import class di dalam file py seperti import module library
+from Transaction import Transaction
+
+Lalu, panggil class Transaction didalam variabel
+cart = Transaction()
+
+##### def add_item()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/dd9ebd43-d51b-4434-a158-9bb776e34516)
+
+##### def update_item_name()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/b7e880ef-805e-4b75-908a-52d1f0265547)
+
+##### def update_item_qty()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/25b25152-57b2-48e5-8fed-98814c0bad1a)
+
+##### def update_item_price()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/aa68016d-f063-4706-9a8f-f663a65089b6)
+
+##### def delete_item()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/9b5aadd5-0397-4309-9be7-d1ce83132477)
+
+##### def reset_transaction()
+   ![image](https://github.com/Hazard-Nico/Python-Project-Class-Transaction/assets/52674988/4b1b8d4d-93ab-459d-94b3-24b309ddda63)
+
+---
+
+# Link Present Video
+   https://youtu.be/GExPhbb3PpE
